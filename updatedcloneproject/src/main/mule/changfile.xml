@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="changfileFlow" doc:id="2759bc49-3f55-409d-ad62-dac917ced7a9" >
+		<set-payload value="UPTAED GET DETAILS" doc:name="Set Payload" doc:id="c025cb15-2e82-4c3f-a135-7a1370e5dd53" />
+	</flow>
+</mule>
