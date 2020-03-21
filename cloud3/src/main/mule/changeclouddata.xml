@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="changeclouddataFlow" doc:id="59f6d1fa-86f4-4b5c-a4cd-70bd89ee666a" >
+		<logger level="INFO" doc:name="Logger" doc:id="42991b63-fdd5-4eaf-8f88-4eeab5ef54bc" message="11111111111111111111111111111111111111111111111111111111111"/>
+		<set-payload value="changing cloud data values" doc:name="Set Payload" doc:id="f4cd85fd-5916-4e57-af6b-1d07031ada5e" />
+		<logger level="INFO" doc:name="Logger" doc:id="106d37cb-fd0b-45d2-b26c-79a8041d6eeb" message="2222222222222222222222222222222222222222222"/>
+	</flow>
+</mule>
